@@ -1,5 +1,5 @@
 /* Keeps the app itself on the phone so it opens with no internet. It never touches the cloud (those calls go straight through). */
-const CACHE = 'billdesk-phone-2.6.1';
+const CACHE = 'billdesk-phone-2.6.4';
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./","./app.css","./app.js","./apple-touch-icon-180.png","./chunk-SQE76S5B.js","./chunk-XDTYHDBP.js","./favicon-32.png","./favicon-64.png","./icon-192.png","./icon-256.png","./icon-512.png","./icon-maskable-512.png","./index.html","./manifest.webmanifest"])).then(() => self.skipWaiting()));
 });
