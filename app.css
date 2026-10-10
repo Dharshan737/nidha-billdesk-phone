@@ -110,3 +110,5 @@ select.chip { flex: 0 0 38%; }
 .keys button { height: 66px; border-radius: 50%; border: 1px solid var(--border-2); background: #fff; font-size: 26px; font-weight: 500; display: grid; place-items: center; } .keys button:active { background: var(--brand-soft); }
 
 @media (prefers-color-scheme: dark) { /* kept light on purpose: bills and receipts are printed in black on white */ }
+
+.last-note { font-size: 12px; color: var(--muted); margin: -4px 4px 0; }
